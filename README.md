@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🌸 Serenova: Safe Steps for Women
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/fde8fc2b-8008-40a6-a9cb-f31e772a19f0
+## 🚨 Problem Description
 
-## How can I edit this code?
+"**Serenova: Safe Steps for Women**" is a safety-focused application that uses machine learning to enhance women's security. It offers intelligent route planning, risk classification, crime data visualization, and a survivor community space. Real-time and historical data are used to generate safety insights and enable emergency responses.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🌟 Core Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fde8fc2b-8008-40a6-a9cb-f31e772a19f0) and start prompting.
+### 1. 🗺️ Smart Route Planning with Safety Score
+- Users input source and destination.
+- System displays multiple route options with a **Safety Score** based on district-wise crime data in India.
+- **ML Technique**:  
+  - `XGBoost` is trained on crime type, crime rate, and geolocation data to predict route safety.
 
-Changes made via Lovable will be committed automatically to this repo.
+![Route Planner](./sereimages/route_planner.png)
+![Route](./sereimages/route.png)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 2. 🚨 Incident Reporting and Risk Classification
+- Accepts **natural language** descriptions of incidents like *“someone is following me”*.
+- Classifies risk level as **Low**, **Medium**, or **High**.
+- Sends **emergency alerts** to police if risk is high.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**ML Techniques Used:**
+- NLP with `TF-IDF` + `Logistic Regression` or `SVM`
+- Optionally supports **BERT / Transformer Models**
 
-Follow these steps:
+![Report Incident](./sereimages/report_incident.png)
+![Report Incident Alt](./sereimages/report_incident1.png)
+![SOS Alert](./sereimages/sos_alert.png)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 3. 💬 Survivor Blog
+- A secure space where survivors can share their stories and support each other.
 
-# Step 3: Install the necessary dependencies.
-npm i
+![Survivor Stories](./sereimages/survivorstories.png)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+### 4. 📊 Crime Data Visualization
+- Search any city/district.
+- Get interactive **charts and graphs** showing crime rates, types, and trends.
+- Estimate safety levels of locations.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+![Crime Data](./sereimages/crimedata.png)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 5. 📞 Emergency Helpline & Profile Management
+- Quick access to helplines.
+- Profile management for safety alerts and communication.
 
-## What technologies are used for this project?
+![Helpline](./sereimages/helpline.png)
+![Profile](./sereimages/profile.png)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🛠️ Technologies Used
 
-## How can I deploy this project?
+- **Frontend**: React.js  
+- **Backend**: Python  
+- **Map Integration**: Google Maps API  
+- **Database**: MongoDB  
+- **SMS Alerts**: Twilio API  
+- **Datasets Used**:
+  - District-wise crime data (1 lakh+ entries)
 
-Simply open [Lovable](https://lovable.dev/projects/fde8fc2b-8008-40a6-a9cb-f31e772a19f0) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🤖 Machine Learning Models
 
-Yes, you can!
+- `XGBoost`: Route safety prediction
+- `Logistic Regression` / `SVM`: Risk classification
+- `TF-IDF` / `CountVectorizer`: Text feature extraction
+- `BERT` (optional): Advanced NLP
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🎯 Project Impact
+
+Serenova delivers real-time safety intelligence, alerts, and guidance for women. Through seamless UI and AI, it empowers users to make safer choices, promotes awareness, and bridges the gap between danger and support.
+
+---
+
+## 📁 Folder Structure
+
+/sereimages/
+├── route_planner.png
+├── route.png
+├── report_incident.png
+├── report_incident1.png
+├── sos_alert.png
+├── survivorstories.png
+├── crimedata.png
+├── helpline.png
+├── profile.png
+
+---
+
+## 📬 Contact
+
+For queries or collaborations, reach out to any team member. We believe safety is a shared responsibility.
+
