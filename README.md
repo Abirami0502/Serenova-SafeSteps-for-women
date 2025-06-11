@@ -7,6 +7,12 @@
 "**Serenova: Safe Steps for Women**" is a safety-focused application that uses machine learning to enhance women's security. It offers intelligent route planning, risk classification, crime data visualization, and a survivor community space. Real-time and historical data are used to generate safety insights and enable emergency responses.
 
 ---
+## 🎥 Project Demo
+
+Watch the demo on YouTube:  
+[![Serenova Demo](https://img.youtube.com/vi/Cl1kOJUV7_4/0.jpg)](https://www.youtube.com/watch?v=Cl1kOJUV7_4)
+
+---
 
 ## 🌟 Core Features
 
@@ -102,8 +108,13 @@ Serenova delivers real-time safety intelligence, alerts, and guidance for women.
 ├── profile.png
 
 ---
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve Serenova. Make sure to follow best practices for code and documentation.
+
 
 ## 📬 Contact
 
 For queries or collaborations, reach out to any team member. We believe safety is a shared responsibility.
-
+Sridevi 🔗 [GitHub Profile](https://github.com/Sridevi2108)  
+Abirami  🔗 [GitHub Profile](https://github.com/Abirami0502)
